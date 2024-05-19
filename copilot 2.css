@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.header {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+.search-bar {
+    margin: 20px auto;
+    width: 50%;
+}
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+.product-card img {
+    width: 100%;
+    height: auto;
+}
